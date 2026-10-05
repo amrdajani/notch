@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Notch</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.amrdajani.notch</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Notch</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Notch uses the microphone to dictate prompts and record lecture notes.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Notch turns speech into text for chat dictation and lecture notes.</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Notch captures your screen when you take a screenshot from the island.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Notch shows upcoming events in the island.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Notch shows upcoming events, countdowns, and meeting details from your calendars.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Notch keeps your to-dos in sync with Reminders.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>Notch adds, completes, and restores tasks in the Reminders app.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Notch controls Music, Spotify, and Notes when you ask from the island.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
